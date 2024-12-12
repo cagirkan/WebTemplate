@@ -1,14 +1,28 @@
-<div>
-  <button (click)="fetchWeatherForecast()">Fetch Weather Forecast</button>
-</div>
+<mat-card class="weather-card">
+  <mat-card-header>
+    <mat-card-title>Weather Forecast</mat-card-title>
+    <mat-card-subtitle>Check the weather details for the coming days.</mat-card-subtitle>
+  </mat-card-header>
 
-<div *ngIf="isLoading">Loading...</div>
+  <mat-card-content>
+    <div class="button-container">
+      <button mat-raised-button color="primary" (click)="fetchWeatherForecast()">Get Weather</button>
+    </div>
 
-<div *ngIf="weatherData.length > 0">
-  <h3>Weather Forecast</h3>
-  <ul>
-    <li *ngFor="let weather of weatherData">
-      {{ weather.date | date: 'short' }} - {{ weather.temperatureC }}°C - {{ weather.summary }}
-    </li>
-  </ul>
-</div>
+    <div *ngIf="isLoading" class="loading-container">
+      <mat-spinner color="primary"></mat-spinner>
+      <span>Loading...</span>
+    </div>
+
+    <div *ngIf="weatherData.length > 0">
+      <h3>Weather Forecast</h3>
+      <mat-list>
+        <mat-list-item *ngFor="let weather of weatherData">
+          <mat-icon mat-list-icon>wb_sunny</mat-icon>
+          <div mat-line>{{ weather.date | date: 'short' }}</div>
+          <div mat-line>{{ weather.temperatureC }}°C - {{ weather.summary }}</div>
+        </mat-list-item>
+      </mat-list>
+    </div>
+  </mat-card-content>
+</mat-card>
