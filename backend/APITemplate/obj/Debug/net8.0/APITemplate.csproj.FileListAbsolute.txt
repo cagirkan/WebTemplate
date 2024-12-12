@@ -70,3 +70,4 @@ C:\Users\hicag\source\repos\WebTemplate\backend\APITemplate\obj\Debug\net8.0\ref
 C:\Users\hicag\source\repos\WebTemplate\backend\APITemplate\obj\Debug\net8.0\APITemplate.pdb
 C:\Users\hicag\source\repos\WebTemplate\backend\APITemplate\obj\Debug\net8.0\APITemplate.genruntimeconfig.cache
 C:\Users\hicag\source\repos\WebTemplate\backend\APITemplate\obj\Debug\net8.0\ref\APITemplate.dll
+C:\Users\hicag\source\repos\WebTemplate\backend\APITemplate\obj\Debug\net8.0\APITemplate.sourcelink.json

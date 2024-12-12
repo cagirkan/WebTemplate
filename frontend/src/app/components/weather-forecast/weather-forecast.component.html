@@ -1,0 +1,14 @@
+<div>
+  <button (click)="fetchWeatherForecast()">Fetch Weather Forecast</button>
+</div>
+
+<div *ngIf="isLoading">Loading...</div>
+
+<div *ngIf="weatherData.length > 0">
+  <h3>Weather Forecast</h3>
+  <ul>
+    <li *ngFor="let weather of weatherData">
+      {{ weather.date | date: 'short' }} - {{ weather.temperatureC }}°C - {{ weather.summary }}
+    </li>
+  </ul>
+</div>
