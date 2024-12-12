@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hicag\\source\\repos\\WebTemplate\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B970857-F3D4-4505-8D47-B3EA351714D7}|APITemplate\\APITemplate.csproj|c:\\users\\hicag\\source\\repos\\webtemplate\\backend\\apitemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B970857-F3D4-4505-8D47-B3EA351714D7}|APITemplate\\APITemplate.csproj|solutionrelative:apitemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B970857-F3D4-4505-8D47-B3EA351714D7}|APITemplate\\APITemplate.csproj|c:\\users\\hicag\\source\\repos\\webtemplate\\backend\\apitemplate\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B970857-F3D4-4505-8D47-B3EA351714D7}|APITemplate\\APITemplate.csproj|solutionrelative:apitemplate\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hicag\\source\\repos\\WebTemplate\\backend\\APITemplate\\Program.cs",
+              "RelativeDocumentMoniker": "APITemplate\\Program.cs",
+              "ToolTip": "C:\\Users\\hicag\\source\\repos\\WebTemplate\\backend\\APITemplate\\Program.cs",
+              "RelativeToolTip": "APITemplate\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:30:54.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\hicag\\source\\repos\\WebTemplate\\backend\\APITemplate\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "APITemplate\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\hicag\\source\\repos\\WebTemplate\\backend\\APITemplate\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "APITemplate\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:31:55.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
